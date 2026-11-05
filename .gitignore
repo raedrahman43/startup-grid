@@ -1,0 +1,21 @@
+# Local hosting identity and tooling state
+.openai/
+.sites-checkout/
+.sites-runtime/
+.codex/
+.agents/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and local artifacts (dist/ is the application source)
+node_modules/
+*.log
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
